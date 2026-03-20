@@ -31,7 +31,7 @@ const workerConfig: WorkerConfig = {
       // `target` is a valid URL
       target: 'https://cpa.liuq.site',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'Codex号池',
+      tooltip: 'CPA服务监控',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://cpa.liuq.site',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
