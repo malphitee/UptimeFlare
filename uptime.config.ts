@@ -14,9 +14,11 @@ const pageConfig: PageConfig = {
   ],
 }
 
-// const workerConfig: WorkerConfig = {
+const workerConfig: WorkerConfig = {
 //   passwordProtection: 'malphitee:0R3gx3oFK0zHesNm',
   // Define all your monitors here
+  // [Optional] Write KV at most every N minutes unless the status changed, default to 3
+  kvWriteCooldownMinutes: 10,
   monitors: [
     // Example HTTP Monitor
     {
