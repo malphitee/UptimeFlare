@@ -78,7 +78,7 @@ const workerConfig: WorkerConfig = {
       // method: 'POST',
       // [Optional] headers to be sent
       headers: {
-        Content-Type: 'application/json',
+        'Content-Type': 'application/json',
       },
       // [Required] Specify how to encode the payload
       // Should be one of 'param', 'json' or 'x-www-form-urlencoded'
