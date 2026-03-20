@@ -14,8 +14,8 @@ const pageConfig: PageConfig = {
   ],
 }
 
-const workerConfig: WorkerConfig = {
-  passwordProtection: 'malphitee:0R3gx3oFK0zHesNm',
+// const workerConfig: WorkerConfig = {
+//   passwordProtection: 'malphitee:0R3gx3oFK0zHesNm',
   // Define all your monitors here
   monitors: [
     // Example HTTP Monitor
